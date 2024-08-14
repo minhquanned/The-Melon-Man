@@ -76,6 +76,7 @@ game.redraw = function () {
 	// Draw the player
 	game.drawPlayer()
 
+	// Hien tai em thay game da co san score system (o day la Points) nen khong biet phai them gi
 	game.counter.innerHTML = "A game by Karol Swierczek | Controls: A, D / arrows and SPACE | Points: " + Math.round(-game.player.highestY / (3 * game.options.tileHeight)), game.canvas.width - 50, game.canvas.height - 12
 }
 
